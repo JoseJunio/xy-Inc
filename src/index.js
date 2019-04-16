@@ -4,7 +4,6 @@ var path = require('path');
 var bodyParser = require("body-parser");
 var poiRouter = require('./routes/poi');
 var app = express();
-var ObjectID = require('mongoose').ObjectID;
 var PoiModel = require('./models/poi.model')
 
 mongoose.connect('mongodb://192.168.99.100:27017');
